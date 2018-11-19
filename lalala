@@ -1,0 +1,15 @@
+
+	Working with Generics
+	
+	Covariance
+	
+	Person is the superclass. Employee and Guest are subclasses.
+	
+	Inheritance: Person, Employee and Guest are covariants.
+		So:
+		Anywhere a Person reference is specified you can use Employee
+		and Guest.
+		
+	Type Erasure: A list of Person and a list of Employee are not covariant
+	
+	/ 

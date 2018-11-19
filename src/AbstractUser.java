@@ -4,7 +4,7 @@ public abstract class AbstractUser {
 
 	private int id;
 
-	private String Name;
+	private String name;
 
 	private String email;
 
@@ -19,35 +19,35 @@ public abstract class AbstractUser {
 	}
 
 	public void setId(int id) {
-
+		this.id=id;
 	}
 
 	public int getId() {
-		return 0;
+		return this.id;
 	}
 
 	public void setName(String Name) {
-
+		this.name=name;
 	}
 
 	public String getName() {
-		return null;
+		return this.name;
 	}
 
 	public void setEmail(String email) {
-
+		this.email=email;
 	}
 
 	public String getEmail() {
-		return null;
+		return this.email;
 	}
 
 	public void setPassword(String password) {
-
+		this.password=password;
 	}
 
 	public String getPassword() {
-		return null;
+		return 	this.password;
 	}
 
 	public void AbstractUser(String name, String email, String password) {
@@ -74,7 +74,7 @@ public abstract class AbstractUser {
 		return null;
 	}
 
-	public PAMarray searchFavourites(PAMarray favourites) {
+	public PAMarray searchFavorites(PAMarray favourites) {
 		return null;
 	}
 

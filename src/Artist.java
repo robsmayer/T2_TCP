@@ -7,30 +7,34 @@ public class Artist {
 	private boolean alive;
 
 	public void setId(int id) {
-
+		this.id=id;
 	}
 
 	public int getId() {
-		return 0;
+		return this.id;
 	}
 
 	public void setName(String name) {
+		this.name=name;
 
 	}
 
 	public String getName() {
-		return null;
+		return this.name;
 	}
 
 	public void setAlive(boolean alive) {
-
+		this.alive=alive;
 	}
 
 	public boolean getAlive() {
-		return false;
+		return this.alive;
 	}
 
 	public void Artist(String name, boolean alive) {
+		this.name=name;
+		this.alive=alive;
+		/**Pegar novo id de função newId na interface*/
 
 	}
 
