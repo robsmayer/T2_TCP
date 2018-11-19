@@ -51,7 +51,9 @@ public abstract class AbstractUser {
 	}
 
 	public void AbstractUser(String name, String email, String password) {
-
+		this.name = name;
+		this.email=email;
+		this.password= password;
 	}
 
 	public void exit() {
@@ -74,7 +76,7 @@ public abstract class AbstractUser {
 		return null;
 	}
 
-	public PAMarray searchFavorites(PAMarray favourites) {
+	public PAMarray searchFavorites(PAMarray favorites) {
 		return null;
 	}
 

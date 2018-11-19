@@ -37,7 +37,7 @@ public class Admin extends AbstractUser {
 	}
 
 	public void admin(String name, String email, String password) {
-
+		super(name, email,password);
 	}
 
 }
