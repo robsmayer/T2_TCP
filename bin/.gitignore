@@ -1,4 +1,11 @@
-/pacote/
-/testes/
-/projeto/
-/testes_projeto/
+/AbstractUser.class
+/Admin.class
+/Artist.class
+/Client.class
+/DataBase.class
+/Interface.class
+/Museum.class
+/PAMarray.class
+/Painting.class
+/Parser.class
+/Tests/
