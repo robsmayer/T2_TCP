@@ -11,7 +11,7 @@ public abstract class AbstractUser {
 	private String password;
 
 	public void delUser() {
-
+		//Vendo se muda algo
 	}
 
 	public void addUser() {
