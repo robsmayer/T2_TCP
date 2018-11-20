@@ -1,4 +1,10 @@
+package projeto;
 public class Admin extends AbstractUser {
+	
+	public void Admin(String name, String email, String password){
+		
+		super.AbstractUser(name, email, password);
+	}
 
 	private boolean addArtist(int id, String name, boolean alive) {
 		return false;
@@ -36,8 +42,6 @@ public class Admin extends AbstractUser {
 		return false;
 	}
 
-	public void admin(String name, String email, String password) {
-		super(name, email,password);
-	}
+	
 
 }

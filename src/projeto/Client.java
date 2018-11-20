@@ -1,12 +1,13 @@
+package projeto;
 public class Client extends AbstractUser {
 
 	private PAMarray history;
 
 	private PAMarray favorite;
 
-	private PAMarray pAMarray;
+	//private PAMarray pAMarray;
 
-	private PAMarray pAMarray;
+	//private PAMarray pAMarray;
 
 	public boolean addArtist(Artist Artist, PAMarray PAM) {
 		return false;

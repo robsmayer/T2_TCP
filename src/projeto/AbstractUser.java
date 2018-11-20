@@ -1,3 +1,4 @@
+package projeto;
 import java.util.ArrayList;
 
 public abstract class AbstractUser {
@@ -11,7 +12,7 @@ public abstract class AbstractUser {
 	private String password;
 
 	public void delUser() {
-		//Vendo se muda algo
+		//Vendo se muda algo 
 	}
 
 	public void addUser() {

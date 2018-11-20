@@ -1,8 +1,9 @@
+package projeto;
 import java.util.ArrayList;
 
 public class DataBase {
 
-	private PAMarray[] pAMarray;
+	//private PAMarray[] pAMarray;
 
 	private Museum[] museum;
 
@@ -10,7 +11,7 @@ public class DataBase {
 
 	private Artist[] artist;
 
-	private PAMarray[] pAMarray;
+	//private PAMarray[] pAMarray;
 
 	private Client client;
 

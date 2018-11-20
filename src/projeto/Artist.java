@@ -1,3 +1,4 @@
+package projeto;
 public class Artist {
 
 	private int id;
