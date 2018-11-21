@@ -1,3 +1,4 @@
+package projeto;
 public class Painting {
 
 	private int id;

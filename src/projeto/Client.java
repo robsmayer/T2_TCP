@@ -1,3 +1,4 @@
+package projeto;
 public class Client extends AbstractUser {
 
 	private PAMarray history;

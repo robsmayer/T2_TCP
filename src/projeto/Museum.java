@@ -1,3 +1,4 @@
+package projeto;
 public class Museum {
 
 	private int id;

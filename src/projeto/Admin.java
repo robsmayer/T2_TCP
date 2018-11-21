@@ -1,3 +1,4 @@
+package projeto;
 public class Admin extends AbstractUser {
 	
 	public Admin(String name, String email, String password) {
